@@ -6,11 +6,13 @@ const app = express();
 var bodyParser = require('body-parser');
 app.use(bodyParser.json());
 
+const yourPassword = "*****"
+
 const client = new Client({
   user: 'postgres',
   host: '::1',
   database: 'saystory',
-  password: 'Shaas@786',
+  password: yourPassword,
   port: 5432,
 });
 
