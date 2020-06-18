@@ -1,6 +1,6 @@
 const express = require("express");
 const router = new express.Router();
-const client= require('../database/psql');
+const client = require("../database/psql");
 
 //api goes here
 router.post("/insertStory", function (request, response) {
@@ -243,6 +243,5 @@ const samQuery = (storyID, authorDetails, callback) => {
     }
   });
 };
-
 
 module.exports = router;
