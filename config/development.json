@@ -1,10 +1,9 @@
 {
     "psql": {
-        "name": "nodeFrame",
         "port": 5432,
         "database": "saystory",
         "user": "postgres",
-        "password": "Shaas@786",
+        "password": "123654",
         "host": "::1",
         "log": false
     },
